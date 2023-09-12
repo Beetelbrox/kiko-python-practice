@@ -1,6 +1,6 @@
 # La Roqueria
 
-After much deliberation you've decided to open _La Roqueria_, a climbing gym. To start simple you'll be offering your customers three subscription plans to choose from (A customer can be subscribed to oa single at a time):
+After much deliberation you've decided to open _La Roqueria_, a climbing gym. To start simple you'll be offering your customers three subscription plans to choose from (A customer can be subscribed to a single plan at any given time):
  - **Casual**: 1 hour/week, 10 EUR
  - **Regular**: 2 hours/week, 15 EUR
  - **Pro**: Unlimited hours/week, 50 EUR
@@ -50,7 +50,7 @@ Your command line interface `rq` will have the following API:
 
 An example, Running the following command:
 ```shell
-rq create "Bill Clinton" "1946/08/19" CASUAL
+./rq create "Bill Clinton" "1946/08/19" CASUAL
 ```
 Will create a new user with name "Bill Clinton", birthdate "1946/08/19" & plan "Casual"
 
